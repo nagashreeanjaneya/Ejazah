@@ -13,13 +13,12 @@ public class testThngsToDo extends BaseTest{
 	public void testValid() {
 		ThingToDoPO doPO=new ThingToDoPO(driver);
 		doPO.thngToDofn("australia");
-		try {
+		/*try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			
 		}
-		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());*/
 	}
 	@Test(priority=2)
 	public void testInvalid() {
